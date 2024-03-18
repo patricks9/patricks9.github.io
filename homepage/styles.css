@@ -1,0 +1,114 @@
+.bg {
+    background-image: url('pizzapalace.jpg');
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    color: blue;
+    font-size: 100px;
+}
+
+#name {
+    text-align: center;
+    color: navy;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.es {
+    background-image: url('23751.jpg');
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#esti {
+    text-align: center;
+    color: black;
+    font-size: 110px;
+}
+
+
+
+mark {
+    background-color: green;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+#para {
+    margin-left: 10px;
+    /* An absolute length */
+    margin-left: 1em;
+    /* relative to the text size */
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    font-size: 28px;
+    margin: 1;
+    text-indent: 30px;
+}
+
+
+
+#qwerty {
+    text-align: center;
+    font-size: 10vw;
+    /* make our h1 tag larger */
+    font-family: sans-serif;
+    /* choosing our font */
+    background-image: url('data:image/jpeg;base64,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');
+    /* you can change the colors based on your preference */
+    background-clip: text;
+    /*add this line, it defines how far the background should extend within an element, here we set it to text */
+    -webkit-background-clip: text;
+    /* add this line, for browsers compatibility */
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-custom .navbar-text {
+    color: green;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#para2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    ;
+    color: black;
+    font-size: 32px;
+    margin: 1;
+}
+
+#itle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    ;
+    color: black;
+    font-size: 60px;
+    margin: 1;
+    text-indent: 30px;
+}
+
+#link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    ;
+    color: black;
+    font-size: 40px;
+    margin: 1;
+
+}
